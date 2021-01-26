@@ -1,0 +1,26 @@
+.page-content {
+    display:none;
+}
+.page-content.visible {
+    display: block;
+}
+
+.comic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.comic li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.comic img {
+    margin: 1em;
+    width: 300px;
+}
