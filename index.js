@@ -21,7 +21,9 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
   });
 
-const audioContext = new AudioContext();
+
+var AudioContext = window.AudioContext || window.webkitAudioContext;
+new AudioContext();
 
 var audio;
 $('.comic img').click(function(event) {
